@@ -1,0 +1,17 @@
+{
+  "name": "Block French Guiana (GF) IP ranges",
+  "description": "Deny outbound connections to IP ranges registered to French Guiana (GF) (Source: public RIR delegation data, 2026-09-05).",
+  "denied-remote-addresses": [    "128.201.88.0-128.201.91.255",
+    "161.22.64.0-161.22.127.255",
+    "170.233.72.0-170.233.75.255",
+    "186.2.244.0-186.2.247.255",
+    "200.13.136.0-200.13.143.255",
+    "2803:1680::/32",
+    "2803:1740::/32",
+    "2803:3a0::/32",
+    "2803:53c0::/32",
+    "2803:5900::/32",
+    "2803:c700::/32",
+    "45.169.164.0-45.169.167.255"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Block Niue (NU) IP ranges",
+  "description": "Deny outbound connections to IP ranges registered to Niue (NU) (Source: public RIR delegation data, 2026-09-05).",
+  "denied-remote-addresses": [    "2001:df0:8c::/48",
+    "202.59.4.0-202.59.7.255",
+    "2402:1220::/32",
+    "49.156.48.0-49.156.51.255"
+  ]
+}

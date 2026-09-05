@@ -1,0 +1,9 @@
+{
+  "name": "Block Tuvalu (TV) IP ranges",
+  "description": "Deny outbound connections to IP ranges registered to Tuvalu (TV) (Source: public RIR delegation data, 2026-09-05).",
+  "denied-remote-addresses": [    "202.2.112.0-202.2.127.255",
+    "202.2.96.0-202.2.111.255",
+    "2400:3500::/32",
+    "2401:c720::/32"
+  ]
+}

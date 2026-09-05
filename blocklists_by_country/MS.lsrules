@@ -1,0 +1,7 @@
+{
+  "name": "Block Montserrat (MS) IP ranges",
+  "description": "Deny outbound connections to IP ranges registered to Montserrat (MS) (Source: public RIR delegation data, 2026-09-05).",
+  "denied-remote-addresses": [    "199.7.90.0-199.7.90.255",
+    "208.90.112.0-208.90.115.255"
+  ]
+}

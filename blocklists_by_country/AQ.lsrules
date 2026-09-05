@@ -1,0 +1,9 @@
+{
+  "name": "Block Antarctica (AQ) IP ranges",
+  "description": "Deny outbound connections to IP ranges registered to Antarctica (AQ) (Source: public RIR delegation data, 2026-09-05).",
+  "denied-remote-addresses": [    "131.143.220.0-131.143.221.255",
+    "209.127.204.0-209.127.204.255",
+    "23.154.160.0-23.154.160.255",
+    "2604:17c0::/32"
+  ]
+}

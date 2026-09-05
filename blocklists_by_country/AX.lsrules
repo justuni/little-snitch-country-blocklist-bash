@@ -1,0 +1,10 @@
+{
+  "name": "Block Åland Islands (AX) IP ranges",
+  "description": "Deny outbound connections to IP ranges registered to Åland Islands (AX) (Source: public RIR delegation data, 2026-09-05).",
+  "denied-remote-addresses": [    "185.84.30.0-185.84.31.255",
+    "217.29.224.0-217.29.239.255",
+    "2a04:e100::/29",
+    "2a0d:79c0::/32",
+    "91.210.154.0-91.210.154.255"
+  ]
+}

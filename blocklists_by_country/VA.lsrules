@@ -1,0 +1,12 @@
+{
+  "name": "Block Vatican City (VA) IP ranges",
+  "description": "Deny outbound connections to IP ranges registered to Vatican City (VA) (Source: public RIR delegation data, 2026-09-05).",
+  "denied-remote-addresses": [    "185.152.68.0-185.152.71.255",
+    "185.17.220.0-185.17.223.255",
+    "193.43.102.0-193.43.103.255",
+    "212.77.0.0-212.77.31.255",
+    "2a01:b8::/29",
+    "2a04:640::/29",
+    "2a07:8100::/29"
+  ]
+}

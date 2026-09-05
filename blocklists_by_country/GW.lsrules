@@ -1,0 +1,11 @@
+{
+  "name": "Block Guinea-Bissau (GW) IP ranges",
+  "description": "Deny outbound connections to IP ranges registered to Guinea-Bissau (GW) (Source: public RIR delegation data, 2026-09-05).",
+  "denied-remote-addresses": [    "102.201.160.0-102.201.163.255",
+    "102.219.174.0-102.219.175.255",
+    "154.73.60.0-154.73.63.255",
+    "197.214.80.0-197.214.95.255",
+    "2c0f:ec50::/32",
+    "2c0f:f928::/32"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Block Eritrea (ER) IP ranges",
+  "description": "Deny outbound connections to IP ranges registered to Eritrea (ER) (Source: public RIR delegation data, 2026-09-05).",
+  "denied-remote-addresses": [    "196.200.96.0-196.200.111.255"
+  ]
+}

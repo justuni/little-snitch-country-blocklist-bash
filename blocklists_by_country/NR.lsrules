@@ -1,0 +1,14 @@
+{
+  "name": "Block Nauru (NR) IP ranges",
+  "description": "Deny outbound connections to IP ranges registered to Nauru (NR) (Source: public RIR delegation data, 2026-09-05).",
+  "denied-remote-addresses": [    "103.20.124.0-103.20.124.255",
+    "103.36.150.0-103.36.151.255",
+    "103.49.173.0-103.49.173.255",
+    "103.49.174.0-103.49.175.255",
+    "203.190.216.0-203.190.216.255",
+    "203.98.224.0-203.98.255.255",
+    "2403:ae80::/32",
+    "2403:f600::/32",
+    "43.230.6.0-43.230.6.255"
+  ]
+}

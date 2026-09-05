@@ -1,0 +1,10 @@
+{
+  "name": "Block Sao Tome & Principe (ST) IP ranges",
+  "description": "Deny outbound connections to IP ranges registered to Sao Tome & Principe (ST) (Source: public RIR delegation data, 2026-09-05).",
+  "denied-remote-addresses": [    "102.202.92.0-102.202.95.255",
+    "102.206.44.0-102.206.47.255",
+    "154.72.12.0-154.72.15.255",
+    "197.159.160.0-197.159.191.255",
+    "2c0f:fa88::/32"
+  ]
+}

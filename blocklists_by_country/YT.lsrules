@@ -1,0 +1,6 @@
+{
+  "name": "Block Mayotte (YT) IP ranges",
+  "description": "Deny outbound connections to IP ranges registered to Mayotte (YT) (Source: public RIR delegation data, 2026-09-05).",
+  "denied-remote-addresses": [    "41.242.116.0-41.242.119.255"
+  ]
+}

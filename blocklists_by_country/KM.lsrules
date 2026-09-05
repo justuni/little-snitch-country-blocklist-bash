@@ -1,0 +1,13 @@
+{
+  "name": "Block Comoros (KM) IP ranges",
+  "description": "Deny outbound connections to IP ranges registered to Comoros (KM) (Source: public RIR delegation data, 2026-09-05).",
+  "denied-remote-addresses": [    "102.202.32.0-102.202.35.255",
+    "102.204.47.0-102.204.47.255",
+    "102.207.176.0-102.207.179.255",
+    "102.223.120.0-102.223.123.255",
+    "164.160.136.0-164.160.139.255",
+    "197.255.224.0-197.255.239.255",
+    "2c0f:f2c8::/32",
+    "2c0f:f560::/32"
+  ]
+}

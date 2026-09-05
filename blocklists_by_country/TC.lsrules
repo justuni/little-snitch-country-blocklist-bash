@@ -1,0 +1,13 @@
+{
+  "name": "Block Turks & Caicos Is (TC) IP ranges",
+  "description": "Deny outbound connections to IP ranges registered to Turks & Caicos Is (TC) (Source: public RIR delegation data, 2026-09-05).",
+  "denied-remote-addresses": [    "142.54.204.0-142.54.207.255",
+    "192.203.37.0-192.203.37.255",
+    "199.103.28.0-199.103.31.255",
+    "199.182.192.0-199.182.195.255",
+    "204.110.56.0-204.110.63.255",
+    "204.13.104.0-204.13.107.255",
+    "2602:ff48::/36",
+    "65.255.48.0-65.255.63.255"
+  ]
+}

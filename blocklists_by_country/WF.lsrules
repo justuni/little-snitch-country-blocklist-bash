@@ -1,0 +1,9 @@
+{
+  "name": "Block Wallis & Futuna (WF) IP ranges",
+  "description": "Deny outbound connections to IP ranges registered to Wallis & Futuna (WF) (Source: public RIR delegation data, 2026-09-05).",
+  "denied-remote-addresses": [    "103.235.110.0-103.235.111.255",
+    "117.20.32.0-117.20.39.255",
+    "2406:2540::/32",
+    "27.125.192.0-27.125.195.255"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Block Central African Rep. (CF) IP ranges",
+  "description": "Deny outbound connections to IP ranges registered to Central African Rep. (CF) (Source: public RIR delegation data, 2026-09-05).",
+  "denied-remote-addresses": [    "102.205.60.0-102.205.61.255",
+    "169.239.96.0-169.239.99.255",
+    "197.242.176.0-197.242.183.255",
+    "41.223.184.0-41.223.187.255",
+    "41.78.120.0-41.78.123.255"
+  ]
+}

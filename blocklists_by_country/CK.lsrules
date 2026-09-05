@@ -1,0 +1,9 @@
+{
+  "name": "Block Cook Islands (CK) IP ranges",
+  "description": "Deny outbound connections to IP ranges registered to Cook Islands (CK) (Source: public RIR delegation data, 2026-09-05).",
+  "denied-remote-addresses": [    "116.199.200.0-116.199.201.255",
+    "202.65.32.0-202.65.63.255",
+    "2401:4d20::/32",
+    "2407:5800::/32"
+  ]
+}

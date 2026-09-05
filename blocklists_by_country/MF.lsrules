@@ -1,0 +1,16 @@
+{
+  "name": "Block St Martin (French) (MF) IP ranges",
+  "description": "Deny outbound connections to IP ranges registered to St Martin (French) (MF) (Source: public RIR delegation data, 2026-09-05).",
+  "denied-remote-addresses": [    "148.64.60.0-148.64.61.255",
+    "149.112.46.0-149.112.47.255",
+    "158.222.40.0-158.222.41.255",
+    "192.139.192.0-192.139.192.255",
+    "192.96.136.0-192.96.137.255",
+    "204.27.52.0-204.27.55.255",
+    "23.138.120.0-23.138.120.255",
+    "2602:fb4a::/40",
+    "2602:fb4b::/40",
+    "2602:ff07::/36",
+    "2604:25e0::/32"
+  ]
+}

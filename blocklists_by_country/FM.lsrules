@@ -1,0 +1,12 @@
+{
+  "name": "Block Micronesia (FM) IP ranges",
+  "description": "Deny outbound connections to IP ranges registered to Micronesia (FM) (Source: public RIR delegation data, 2026-09-05).",
+  "denied-remote-addresses": [    "103.166.208.0-103.166.209.255",
+    "103.39.252.0-103.39.255.255",
+    "119.252.112.0-119.252.127.255",
+    "124.109.8.0-124.109.15.255",
+    "2407:4800::/32",
+    "2407:5c40::/32",
+    "43.248.156.0-43.248.159.255"
+  ]
+}
