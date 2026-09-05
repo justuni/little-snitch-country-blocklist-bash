@@ -8,11 +8,23 @@ A subscription-free, Go-free bash generator for Little Snitch country blocklists
 
 It uses only **bash** and standard Unix tools (`curl`, `awk`, `sort`). Data comes from the free, public RIR delegation statistics files (AFRINIC, APNIC, ARIN, LACNIC, RIPE NCC) — no API keys or paid subscriptions required.
 
-## Requirements
+## Prerequisites
 
-- macOS or any Unix-like system with `bash`, `curl`, `awk`, and `sort`
-- `generate.sh` verifies these tools exist at startup and exits with install hints if any are missing
-- Internet connection for the initial RIR download
+- **Operating system:** macOS, Linux, or WSL
+- **Shell:** `bash`
+- **Tools:** `curl`, `awk`, and `sort` (standard on most Unix-like systems)
+- **Network:** an active internet connection for the initial RIR download
+
+`generate.sh` checks for the required tools at startup and exits with install hints if any are missing. If you need to install them manually:
+
+```bash
+# macOS (Homebrew)
+brew install curl gawk coreutils
+
+# Ubuntu / Debian
+sudo apt update
+sudo apt install -y curl gawk coreutils
+```
 
 ## Usage
 
